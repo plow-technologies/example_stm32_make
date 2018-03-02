@@ -68,7 +68,7 @@ target device.
 
 it is located in the stlink repo after building.  In my version it was in the folder =stlink/build/Release/src/gdbserver=
 
-Run it with =sudo st-util= after building. 
+Run it with =sudo ./st-util= after building. 
 
 ** Connect with client 
 =arm-none-eabi-gdb ./build/example_make.elf=  for this project, but replace the elf with your version.

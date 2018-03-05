@@ -69,8 +69,11 @@ Retrieve a copy of STLINK source
 
 =cd ~=
 =git clone https://github.com/texane/stlink.git=
+
 =cd stlink=
+
 =make release=
+
 =make debug= only necessary for people who want to modify sources and run under a debugger
 
 =cd build/Release=

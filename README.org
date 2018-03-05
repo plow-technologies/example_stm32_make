@@ -61,11 +61,12 @@ Deployment for the STM32 means sending code over the st link and to the chip.
 If you are using a development board the stlink is built into the board.  Otherwise
 you will need a programmer like [[https://www.mouser.com/ProductDetail/STMicroelectronics/ST-LINK-V2/?qs=H4BOwPtf9MC1sDQ8j3cy4w%3D%3D&gclid=EAIaIQobChMIjqnvyMeb2QIV27jACh1j9g88EAQYASABEgIa3_D_BwE][STLinkV2]]
 
-**Download and build STLINK
+** Download and build STLINK
 You need to install a couple of packages before building STLINK
 =sudo apt-get install autoconf pkg-config libusb-1.0 git=
 
 Retrieve a copy of STLINK source
+
 cd ~
 =git clone https://github.com/texane/stlink.git=
 =cd stlink=
@@ -75,6 +76,7 @@ cd ~
 =make install DESTDIR=_install=
 
 As a sanity check, look under destination path: ($HOME/stlink/build/Release/_install/usr/local/bin)
+
 You should see: st-util, st-flash, st-info, stlink-gui
 
 ** Start GDB Server

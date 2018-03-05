@@ -72,6 +72,7 @@ cd ~
 =cd stlink=
 =make release=
 =make debug= only necessary for people who want to modify sources and run under a debugger
+
 =cd build/Release=
 =make install DESTDIR=_install=
 

@@ -77,6 +77,7 @@ Retrieve a copy of STLINK source
 =make debug= only necessary for people who want to modify sources and run under a debugger
 
 =cd build/Release=
+
 =make install DESTDIR=_install=
 
 As a sanity check, look under destination path: ($HOME/stlink/build/Release/_install/usr/local/bin)

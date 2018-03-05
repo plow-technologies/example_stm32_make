@@ -67,7 +67,7 @@ You need to install a couple of packages before building STLINK
 
 Retrieve a copy of STLINK source
 
-cd ~
+=cd ~=
 =git clone https://github.com/texane/stlink.git=
 =cd stlink=
 =make release=
